@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Amzlens 🔍
 
-## Getting Started
+> Optical Barcode Scanner & Amazon Selling Partner Multi-Marketplace Catalog Investigator.
 
-First, run the development server:
+**Amzlens** allows you to scan or photograph any retail barcode (EAN-13, UPC-A, Code-128, ISBN) and instantly retrieve the matching Amazon catalog listing, ASIN, Buy Box pricing, sales rank, customer reviews, and direct product links across 7 regional Amazon stores:
+- 🇺🇸 **USA** (`amazon.com`)
+- 🇬🇧 **United Kingdom** (`amazon.co.uk`)
+- 🇮🇹 **Italy** (`amazon.it`)
+- 🇫🇷 **France** (`amazon.fr`)
+- 🇪🇸 **Spain** (`amazon.es`)
+- 🇩🇪 **Germany** (`amazon.de`)
+- 🇮🇪 **Ireland** (`amazon.ie`)
+- 🇨🇦 **Canada** (`amazon.ca`)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Live Camera Viewfinder**: High-speed frame scanning with laser reticle, front/rear camera toggle, and torch control.
+- **Photograph / Snapshot Upload**: Drag-and-drop packaging photos or snap pictures with mobile camera shutter.
+- **Manual UPC / Barcode Entry**: Quick lookup with one-click test sample chips.
+- **Amazon SP-API Integration**: Catalog Items API (`v2022-04-01`) with automatic LWA token negotiation and candidate format resolution.
+- **Regional SP-API Token Isolation**: Supports distinct **Europe Refresh Tokens** (`eu-west-1`) vs **North America Refresh Tokens** (`us-east-1`).
+- **Offline / Demo Safe Mode**: Realistic seeded catalog database with procedural catalog generator for instant offline testing.
+- **Investigation History**: Session log with 1-click CSV export.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+### Local Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Run development server:
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+3. Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ☁️ Cloudflare Pages Deployment
+
+- **GitHub Repository**: [https://github.com/aransmithson/Amzlens](https://github.com/aransmithson/Amzlens)
+- **Cloudflare Pages URL**: [https://amzlens.pages.dev/](https://amzlens.pages.dev/)

@@ -180,7 +180,7 @@ export default function Home() {
               <div className="text-center max-w-2xl mx-auto space-y-3">
                 <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs font-semibold">
                   <Sparkles className="w-3.5 h-3.5" />
-                  <span>AmzCheck • Barcode & Catalog Investigator</span>
+                  <span>Amzlens • Barcode & Catalog Investigator</span>
                 </div>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white leading-tight">
                   Point. Scan. <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-200">Investigate.</span>

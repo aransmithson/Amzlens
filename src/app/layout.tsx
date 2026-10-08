@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AmzCheck | Amazon Barcode & Catalog Investigator",
+  title: "Amzlens | Amazon Barcode & Catalog Investigator",
   description:
-    "AmzCheck: Scan item barcodes via live webcam, snap packaging photographs, or lookup UPC/EAN numbers directly in the Amazon Selling Partner catalog.",
+    "Amzlens: Scan item barcodes via live webcam, snap packaging photographs, or lookup UPC/EAN numbers directly in the Amazon Selling Partner catalog.",
 };
 
 export default function RootLayout({

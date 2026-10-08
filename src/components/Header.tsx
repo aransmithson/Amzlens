@@ -38,7 +38,7 @@ export function Header({
           <div>
             <div className="flex items-center gap-2">
               <span className="font-extrabold text-base sm:text-lg tracking-tight text-white">
-                Amz<span className="text-amber-400">Check</span>
+                Amz<span className="text-amber-400">lens</span>
               </span>
               <span className="hidden sm:inline-block text-[10px] uppercase font-bold tracking-widest px-2 py-0.5 rounded-full bg-white/10 text-zinc-300 border border-white/5">
                 Investigator
